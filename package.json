@@ -11,12 +11,19 @@
   "dependencies": {
     "@maptiler/leaflet-maptilersdk": "^2.0.0",
     "@maptiler/sdk": "^2.2.0",
+    "axios": "^1.7.2",
+    "file-saver": "^2.0.5",
+    "html-to-image": "^1.11.11",
     "html2canvas": "^1.4.1",
     "leaflet": "^1.9.4",
+    "leaflet-easybutton": "^2.4.0",
+    "leaflet-image": "^0.4.0",
     "leaflet-maskcanvas": "^1.0.0",
+    "leaflet.bigimage": "^1.0.1",
     "leaflet.imageoverlay.arrugator": "^1.4.0",
     "vue": "^3.4.29",
-    "vue-leaflet": "^0.1.0"
+    "vue-leaflet": "^0.1.0",
+    "vue-router": "^4.4.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",

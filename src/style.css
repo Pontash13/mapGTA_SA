@@ -15,7 +15,15 @@ code {
 
 @font-face {
   font-family: 'backett';
-  src: url('../fonts/BECKETT_.TTF') format('truetype');
-  font-weight: normal;
+  src: url('../fonts/beckett.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'pricedow';
+  src: url('../fonts/pricedow.ttf') format('truetype');
+  font-weight: bold;
   font-style: normal;
 }

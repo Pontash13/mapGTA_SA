@@ -1,11 +1,18 @@
 <template>
-  <Navbar />
-  <Map />
+
+    <RouterView />
+    <Central/>
+
 </template>
 
-<script setup>
-import Map from "./components/Map.vue";
-import Navbar from './components/Navbar.vue';
+<script>
+import Central from "./views/Central.vue";
+export default {
+  name: "App",
+  components: {
+    Central
+  }
+};
 </script>
 
 <style scoped>
